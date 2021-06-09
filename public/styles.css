@@ -1,0 +1,34 @@
+body{
+    font-family:  Helvetica, sans-serif;
+}
+#map {
+    width: 100%;
+    min-width: 380px;
+    height: 500px;
+}
+
+#grid-container {
+    display: grid;
+    grid-template-columns: 1fr;
+    justify-items: center;
+    row-gap: 1ch;
+}
+
+@font-face {
+    font-family: "Chelsea";
+    src: url("/fonts/Chelsea.ttf");
+}
+
+h1{
+    font-family: "Chelsea";
+    font-size: 1.8em;
+}
+
+button{
+    background-color:rgb(174, 174, 174);
+    border:none;
+    font-size: 20px;
+    padding: 10px;
+    border-radius: 8px;
+}
+
